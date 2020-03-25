@@ -1,11 +1,11 @@
 def circle_area():
 
-    print("Please,input the radius of circle required ")
+    print("Please,input the radius of the circle required ")
 
-    radius = int(input("Radius: ))
+    circle_radius = int(input("Radius: "))
+    
+    areaof_circle = (22 * (circle_radius**2)/7)
+    
+    print(areaof_circle)
 
-    area = (22 * (radius**2))/7)
-
-    print(area)
-
-calc_circle_area()
+circle_area()
